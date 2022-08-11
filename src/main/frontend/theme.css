@@ -40,6 +40,7 @@
   --btn-secondary-color: var(--btn-primary-color);
   --btn-link-bg--hover: var(--dark-theme-bg-dark-grey);
   --btn-link-bg--active: var(--dark-theme-bg-dark-grey);
+  --btn-primary-bg:
 
   /* Help area */
   --help-area-bg-color: var(--dark-theme-bg-dark-grey);
@@ -198,4 +199,9 @@
    color: #9C9E9E !important;
  }
 
+ .icon-disabled .svg-icon, .icon-disabled-anime .svg-icon {
+   color: #b3ab9a !important;
+   fill: #b3ab9a !important;
+   opacity: 1;
+ }
  /* End CodeMirror Darcula theme */
