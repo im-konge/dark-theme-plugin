@@ -63,7 +63,7 @@
   --breadcrumbs-border: var(--dark-theme-bg-dark-grey);
 
   /* Links */
-  --link-color: #e6d520;
+  --link-color: #a1c6c7;
   --link-visited-color: var(--link-color);
 
   /* Table */
@@ -199,15 +199,27 @@
    color: #9C9E9E !important;
  }
 
- .icon-disabled .svg-icon, .icon-disabled-anime .svg-icon {
+  .icon-disabled .svg-icon, .icon-disabled-anime .svg-icon {
    color: #b3ab9a !important;
    fill: #b3ab9a !important;
    opacity: 1;
- }
+  }
 
- .icon-disabled, .icon-disabled-anime {
+  .icon-disabled, .icon-disabled-anime {
    color: #b3ab9a !important;
    fill: #b3ab9a !important;
    opacity: 1;
- }
+  }
+
+  .icon-aborted .svg-icon, .icon-aborted-anime .svg-icon {
+    color: #b75bf0 !important;
+    fill: #b75bf0 !important;
+    opacity: 1;
+  }
+
+  .icon-aborted, .icon-aborted-anime {
+    color: #b75bf0 !important;
+    fill: #b75bf0 !important;
+    opacity: 1;
+  }
  /* End CodeMirror Darcula theme */
