@@ -204,4 +204,10 @@
    fill: #b3ab9a !important;
    opacity: 1;
  }
+
+ .icon-disabled, .icon-disabled-anime {
+   color: #b3ab9a !important;
+   fill: #b3ab9a !important;
+   opacity: 1;
+ }
  /* End CodeMirror Darcula theme */
