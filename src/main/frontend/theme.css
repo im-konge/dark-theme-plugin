@@ -60,7 +60,7 @@
   --breadcrumbs-border: var(--dark-theme-bg-dark-grey);
 
   /* Links */
-  --link-color: #18B;
+  --link-color: #e6d520;
   --link-visited-color: var(--link-color);
 
   /* Table */
@@ -70,7 +70,11 @@
   --bigtable-row-border-color: var(--dark-theme-bg-dark-grey);
   --even-row-color: #020202;
   --table-striped-bg--hover: var(--dark-theme-bg-dark-grey);
+
   --table-background: #2b2b2b;
+  --table-body-background: #404040;
+  --table-body-foreground: var(--text-color);
+  --table-header-foreground: var(--text-color);
 
   /* Pane widget */
   --pane-border-color: var(--dark-theme-bg-dark-grey);
