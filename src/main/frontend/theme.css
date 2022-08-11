@@ -143,7 +143,7 @@
   /* Auto complete */
   --auto-complete-bg-color--prehighlight: var(--primary);
 
-  --header-bg-classic: #9e9a75;
+  --header-bg-classic: #474444;
   --header-link-color: white;
 }
 
@@ -238,8 +238,21 @@
   }
 
   .ownership-summary-box {
-      width: 75%;
-      background-color: #404040;
-      padding: 1rem;
+    width: 75%;
+    background-color: #404040 !important;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-style: none;
+  }
+
+  #jenkins-home-link {
+    display:none !important
+  }
+
+  header {
+    background-image: url('https://design.jboss.org/strimzi/logo/final/strimzilogomark_default_512px.png');
+    background-repeat: no-repeat;
+    background-size: auto 40px, cover;
+    background-position: 10px 10px;
   }
  /* End CodeMirror Darcula theme */
