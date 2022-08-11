@@ -12,6 +12,8 @@
   --medium-grey: var(--dark-theme-bg-medium-grey);
   --white: var(--dark-theme-bg-dark-grey);
   --black: var(--dark-theme-bg-light-grey);
+  --primary: #458bed;
+  --green: #28c963;
 
   /* Text */
   --text-color: #c0c0c0;
@@ -75,6 +77,7 @@
   --table-body-background: #404040;
   --table-body-foreground: var(--text-color);
   --table-header-foreground: var(--text-color);
+  --tabs-item-background--selected: var(--table-body-background);
 
   /* Pane widget */
   --pane-border-color: var(--dark-theme-bg-dark-grey);
