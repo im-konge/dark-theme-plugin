@@ -63,7 +63,7 @@
   --breadcrumbs-border: var(--dark-theme-bg-dark-grey);
 
   /* Links */
-  --link-color: #a1c6c7;
+  --link-color: #dfecf0;
   --link-visited-color: var(--link-color);
 
   /* Table */
@@ -142,6 +142,9 @@
 
   /* Auto complete */
   --auto-complete-bg-color--prehighlight: var(--primary);
+
+  --header-bg-classic: #9e9a75;
+  --header-link-color: white;
 }
 
 /**
@@ -221,5 +224,22 @@
     color: #b75bf0 !important;
     fill: #b75bf0 !important;
     opacity: 1;
+  }
+
+  pre a {
+    font-weight: inherit;
+    word-wrap: break-word;
+    color: yellowgreen !important;
+  }
+
+  .console-output {
+    background-color: #404040;
+    color: #e0e0e0 !important;
+  }
+
+  .ownership-summary-box {
+      width: 75%;
+      background-color: #404040;
+      padding: 1rem;
   }
  /* End CodeMirror Darcula theme */
